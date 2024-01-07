@@ -103,7 +103,7 @@ st.set_page_config(
 
 
 def run():
-    st.title("Twin-tech AI Resume scanner")
+    st.title("Head hunters AI Resume scanner")
     st.sidebar.markdown("# Choose User")
     activities = ["Candidate", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
